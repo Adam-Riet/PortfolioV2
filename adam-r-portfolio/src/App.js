@@ -1,17 +1,21 @@
-import './App.css';
 import './styles/styles.css';
 import './components/Navbar.js';
-import './components/Footer.js';
-import './components/Header.js';
-import './components/Project.js';
+import Footer from './components/Footer.js';
+import Header from './components/Header.js';
+import Project from './components/Project.js';
 import About from './components/About';
+import Resume from './components/Resume';
+
 
 function App() {
   return (
     <div>
+      <Header />
       <About />
+      <Footer />
     
     </div>
+    
   );
 }
 
