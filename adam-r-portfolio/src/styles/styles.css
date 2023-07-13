@@ -15,6 +15,15 @@ body {
   
 }
 
+.App {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;  /* 100% of the viewport height */
+    margin: 0;
+    padding: 0;
+  }
+
 p {
     color: var(--primary-color);
 }
@@ -30,6 +39,23 @@ p {
     position: relative;
     right: -2%;  
 }
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+  }
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+}
+  
+  .navbar .logo {
+    margin-right: 20px;
+  }
+
+ 
 
 
 
