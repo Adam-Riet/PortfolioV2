@@ -5,7 +5,7 @@ import '../styles/styles.css';
 
 function Footer() {
   return (
-    <nav className="navbar">
+    <nav className="logos">
       <ul>
         <li className="logo">
           <a href="https://github.com/Adam-Riet" target="_blank" rel="noopener noreferrer">

@@ -12,7 +12,9 @@ function App() {
     <div className="App">
       <Header />
       <About />
-      <Footer />
+      <div className="FooterWrapper">
+        <Footer />
+      </div>
     
     </div>
     

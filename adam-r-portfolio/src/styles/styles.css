@@ -6,20 +6,32 @@ Image by Harryarts on Freepik */
     --secondary-color: #8d8c8a;
     --tertiary-color: #f6f6f6;
     --quaternary-color: #408694;
-    --quinary-color: #52d6f4;
+    --quinary-color: #4D516D;
 }
 
 body {
-    background-image: url('./abstract.avif');
-    background-size: cover;
+    background-color: var(--quaternary-color);
   
+}
+
+p {
+    color: var(--primary-color);
+}
+
+h1 {
+    color: var(--quinary-color);
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
 }
 
 .App {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 100vh;  /* 100% of the viewport height */
+    height: 100vh;
     margin: 0;
     padding: 0;
   }
@@ -29,31 +41,31 @@ p {
 }
 
 .header-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0 auto;
-    padding: 20px;
-    max-width: 80%;  
-    box-sizing: border-box;
-    position: relative;
-    right: -2%;  
+    background-image: url('./abstract.avif');
+    padding: 50px; 
 }
 
-.navbar {
+/* Footer Settings */
+.logos {
     display: flex;
     justify-content: space-between;
   }
 
-.navbar ul {
+.logos ul {
     list-style-type: none;
     display: flex;
     padding: 0;
 }
   
-  .navbar .logo {
+  .logos .logo {
     margin-right: 20px;
-  }
+}
+
+.FooterWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
  
 
