@@ -5,6 +5,8 @@ Image by Harryarts on Freepik */
 
 @import url('https://fonts.googleapis.com/css2?family=Chela+One&family=Open+Sans:wght@300&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Chela+One&family=Merriweather:ital,wght@0,300;1,300&family=Open+Sans:wght@300&display=swap');
+
 :root {
     --primary-color: #363538;
     --secondary-color: #8d8c8a;
@@ -28,7 +30,7 @@ p {
 
 h1 {
     color: var(--quinary-color);
-    font-family: 'Chela One', sans-serif;
+    font-family: 'Merriweather', serif;
     font-size: 3.5rem;
     font-weight: 700;
     margin: 0;
@@ -37,7 +39,7 @@ h1 {
 
 h2 {
     color: var(--tertiary-color);
-    font-family: 'Chela One', sans-serif;
+    font-family: 'Merriweather', serif;
     font-size: 2.7rem;
 }
 
@@ -59,7 +61,7 @@ h2 {
 }
 
 .abcontainer .abparagraph {
-    margin-bottom: 20px; /* Add space below each paragraph */
+    margin-bottom: 20px; 
 }
 
 .abcontainer p {
@@ -86,6 +88,9 @@ h2 {
 .header-container {
     background-image: url('./abstract.avif');
     padding: 50px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 /* Footer Settings */
@@ -110,8 +115,24 @@ h2 {
     align-items: center;
 }
 
- 
+ /* Navbar setting */
 
+ .nav {
+    display: flex;
+    gap: 10px;
+    list-style-type: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5rem;
+ }
 
+ .nav a {
+    text-decoration: none;
+    color: var(--primary-color);
+    font-weight: bold;
+  }
+
+  .nav a:hover {
+    text-decoration: underline;
+  }
 
 
