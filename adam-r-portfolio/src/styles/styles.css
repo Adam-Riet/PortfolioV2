@@ -92,7 +92,7 @@ h3 {
 /*-------------------/*
 /* Header Settings */
 .header-container {
-    background-image: url('./abstract.avif');
+    background-image: url('../assets/abstract.avif');
     padding: 50px; 
     display: flex;
     justify-content: space-between;

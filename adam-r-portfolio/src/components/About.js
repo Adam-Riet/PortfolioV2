@@ -1,5 +1,5 @@
 import React from 'react';
-import myImage from '../styles/portfolio.jpg'; 
+import myImage from '../assets/portfolio.jpg'; 
 import '../styles/styles.css';
 
 function About() {
