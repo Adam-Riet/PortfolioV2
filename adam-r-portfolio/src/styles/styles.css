@@ -135,4 +135,20 @@ h2 {
     text-decoration: underline;
   }
 
+  .logo a svg {
+    fill: var(--tertiary-color);
+}
+
+.logo a:hover svg {
+    fill: black; 
+}
+
+.logo1 a svg {
+    fill: var(--tertiary-color);
+}
+
+.logo1 a:hover svg {
+    fill: blue; 
+}
+  
 
