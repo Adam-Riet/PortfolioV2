@@ -1,5 +1,4 @@
 import React from 'react';
-import linkedinLogo from '../styles/linkedin.png';
 import '../styles/styles.css'; 
 
 function Footer() {
