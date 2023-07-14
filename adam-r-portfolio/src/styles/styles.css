@@ -259,4 +259,40 @@ h3 {
     opacity: 1;
 }
 
+.project-title2 {
+    z-index: 1; 
+    top: 10px;
+    left: 10px;
+    margin: 0;
+    padding: 0;
+    color: black;
+    text-decoration: none;
+    font-size: 2em;
+}
+
+.github-link,
+.project-title2 {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    text-decoration: none;
+    font-family: bold;
+}
+
+.grid-item:hover .github-link,
+.grid-item:hover .project-title,
+.grid-item:hover .project-title2 {
+    opacity: 1;
+}
+
+@media screen and (max-width: 900px) { 
+    .grid-container {
+        grid-template-columns: 1fr;
+    }
+}
+
 
