@@ -124,7 +124,7 @@ h3 {
 /* Navbar setting */
 .nav {
     display: flex;
-    gap: 13px;
+    gap: 16px;
     list-style-type: none;
     font-family: 'Open Sans', sans-serif;
     font-size: 1.5rem;
@@ -241,6 +241,8 @@ h3 {
     width: 50px;
     height: 50px;
     fill: var(--tertiary-color);
+    transform: scale(1);
+    transition: transform 0.3s ease, color 0.3s ease;
 }
 
 .project-title {
@@ -252,11 +254,15 @@ h3 {
     color: var(--tertiary-color);
     text-decoration: none;
     font-size: 2em;
+    transform: scale(1);
+    transition: transform 0.3s ease, color 0.3s ease;
 }
 
 .grid-item:hover .github-link,
 .grid-item:hover .project-title {
     opacity: 1;
+    transform: scale(1.2);
+    color: var(--tertiary-color);
 }
 
 .project-title2 {
@@ -295,4 +301,23 @@ h3 {
     }
 }
 
+/* Contact settings */
 
+.contact-container {
+    margin-left: 50px;
+    margin-bottom: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: var(--tertiary-color);
+}
+
+.contact-container li {
+    font-size: 1.5em; 
+    margin-bottom: 10px; 
+    
+  }
+  
+.contact-container ul {
+    margin-top: -10px; 
+}
