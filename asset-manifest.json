@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.c7b940f6.css",
+    "main.js": "/Portfolio/static/js/main.1dd9005e.js",
+    "static/media/notetaker.jpg": "/Portfolio/static/media/notetaker.68674bdd1e1baf108dd3.jpg",
+    "static/media/sleepshop.jpg": "/Portfolio/static/media/sleepshop.1759ae911ec8bd8be338.jpg",
+    "static/media/ecommerce.jpg": "/Portfolio/static/media/ecommerce.ccdde37bd0b85cb8b721.jpg",
+    "static/media/dayplanner.jpg": "/Portfolio/static/media/dayplanner.c954bab529ce201265a6.jpg",
+    "static/media/blog.jpg": "/Portfolio/static/media/blog.0bfac0fc87fd6c350c73.jpg",
+    "static/media/socialmedia.jpg": "/Portfolio/static/media/socialmedia.62214dabf52db2ba2b13.jpg",
+    "static/media/resume.pdf": "/Portfolio/static/media/resume.1e0942f0d064fa31deaa.pdf",
+    "static/media/readme.png": "/Portfolio/static/media/readme.933df50273e2469fc8b4.png",
+    "static/media/portfolio.jpg": "/Portfolio/static/media/portfolio.98ab8629e06ff5ae60f5.jpg",
+    "static/media/abstract.avif": "/Portfolio/static/media/abstract.898ecd1527d0d806a45a.avif",
+    "static/media/github-mark.svg": "/Portfolio/static/media/github-mark.4a4cdaca8ce5b6d96381c26769839e1a.svg",
+    "index.html": "/Portfolio/index.html",
+    "main.c7b940f6.css.map": "/Portfolio/static/css/main.c7b940f6.css.map",
+    "main.1dd9005e.js.map": "/Portfolio/static/js/main.1dd9005e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c7b940f6.css",
+    "static/js/main.1dd9005e.js"
+  ]
+}
